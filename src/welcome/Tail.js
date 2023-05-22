@@ -1,4 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 function PageTail() {
   return (
@@ -10,9 +14,9 @@ function PageTail() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit dui id dolor tincidunt, at mattis neque luctus.</p>
       </div>
       <div className="social-icons">
-        <a href="#"><i className="fab fa-facebook"></i></a>
-        <a href="#"><i className="fab fa-twitter"></i></a>
-        <a href="#"><i className="fab fa-instagram"></i></a>
+        <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
+        <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+        <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
       </div>
       <ul className="services-list">
         <li><a href="/">Home</a></li>
@@ -28,3 +32,4 @@ function PageTail() {
 }
 
 export default PageTail;
+
