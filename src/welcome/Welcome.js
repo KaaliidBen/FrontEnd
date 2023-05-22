@@ -1,10 +1,11 @@
 import Beauty from "./Beauty";
-import Events from "./Events";
 import Monuments from "./Monuments";
 import Navbar from "./Navbar";
 import SearchBar from "./Searchbar";
 import PageTail from "./Tail";
 import Wilaya from "./Wilaya";
+
+
 
 function App() {
   return (
@@ -16,7 +17,6 @@ function App() {
       <Wilaya></Wilaya>
       <Monuments></Monuments>
       <Beauty></Beauty>
-      <Events></Events>
       <PageTail></PageTail>
     </div>
   );
